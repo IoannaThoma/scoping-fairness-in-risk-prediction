@@ -10,13 +10,12 @@ Overall, this narrative underscores the interdisciplinary nature of this researc
 
 - generalise from observed measurements to underlying constructs of interest
 
-## Why is my classifier discriminatory?
+### [Why is my classifier discriminatory?](https://arxiv.org/abs/1805.12002) 
 
-### Section 4.2 -description/summary
-It discusses the challenge of addressing discrimination in predictive models when the difference in noise between groups \((N_0 - N_1)\) is dominant. Choosing a better model might not improve fairness without reducing accuracy, especially when available features are not equally predictive for both groups. 
+### Section 4.2 - summary
+It discusses the challenge of addressing discrimination in predictive models when the difference in noise between groups $N_0 - N_1$ is dominant. Choosing a better model might not improve fairness without reducing accuracy, especially when available features are not equally predictive for both groups. 
 
-To tackle this, the authors suggest identifying clusters of individuals where discrimination is high to guide the collection of additional variables. This approach uses a random variable $C$ to represent clustering, with $C=c$ indicating membership in cluster $c$. The expected prediction cost $ρa​(c)$ for a cluster $c$ with protected attribute $a$ is calculated, and clusters where the absolute difference in expected prediction costs \(|\rho_0(c) - \rho_1(c)|\) is large highlight groups with worse-than-average discrimination.
-For example, zero-one loss \( \rho^{ZO}_a(c) \) is used, where \( \rho^{ZO}_a(c) := \mathbb{E}[1[\hat{Y} \neq Y] \mid A = a, C = c] \).
+To tackle this, the authors suggest identifying clusters of individuals where discrimination is high to guide the collection of additional variables. This approach uses a random variable $C$ to represent clustering, with $C=c$ indicating membership in cluster $c$. The expected prediction cost $ρa​(c)$ for a cluster $c$ with protected attribute $a$ is calculated, and clusters, where the absolute difference in expected prediction costs $(|\rho_0(c) - \rho_1(c)|)$ is large, highlight groups with worse-than-average discrimination. For example, zero-one loss $( \rho^{ZO}_a(c) )$ is used, where $( \rho^{ZO}_a(c) := \mathbb{E}[1[\hat{Y} \neq Y] \mid A = a, C = c] )$.
 
 
 
