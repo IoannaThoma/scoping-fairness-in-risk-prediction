@@ -1,10 +1,10 @@
-The landscape of research presented here revolves around the central theme of enhancing fairness, robustness, and efficiency in various domains, primarily within the realm of machine learning and risk prediction modelling using tabular data.
+The research landscape here revolves around the central theme of enhancing fairness, robustness, and efficiency in various domains, primarily within the realm of machine learning and risk prediction modelling using tabular data.
 
-Firstly, the quest for fairness might be addressed through the formalisation of fairness in synthetic data generation. These frameworks aim to mitigate biases and preserve privacy while generating synthetic/counterfactual data, contributing to counterfactual fairness and information filtering fairness.
+Firstly, the quest for fairness might be addressed by formalising fairness in synthetic data generation. These frameworks aim to mitigate biases and preserve privacy while generating synthetic/counterfactual data, contributing to counterfactual fairness and information filtering fairness.
 
 <!--- Additionally, the advancement of robust and efficient models is evident in various approaches such as the Counterfactual Recurrent Network (CRN) and Concept Discovery through Latent Diffusion-based Counterfactual Trajectories (CDCT). CRN leverages patient observational data to estimate treatment effects over time, ensuring reliable counterfactual predictions, while CDCT employs latent diffusion models to discover decision-relevant concepts, offering a more resource-efficient solution. --->
 
-Furthermore, the exploration of counterfactual learning methods, exemplified by CF-SimCLR, expands the horizon by enhancing model generalisation and performance across diverse datasets, particularly in scenarios with limited label settings.
+Furthermore, exploring counterfactual learning methods, exemplified by CF-SimCLR, expands the horizon by enhancing model generalisation and performance across diverse datasets, particularly in scenarios with limited label settings.
 
 Overall, this narrative underscores the interdisciplinary nature of this research and the intertwining concepts from machine learning, causal inference, and medical sciences to tackle fundamental challenges such as fairness, robustness, and efficiency in real-life applications.
 
@@ -12,10 +12,10 @@ Overall, this narrative underscores the interdisciplinary nature of this researc
 
 ### [Why is my classifier discriminatory?](https://arxiv.org/abs/1805.12002) 
 
-### Section 4.2 - summary
+#### Section 4.2 - summary
 It discusses the challenge of addressing discrimination in predictive models when the difference in noise between groups $N_0 - N_1$ is dominant. Choosing a better model might not improve fairness without reducing accuracy, especially when available features are not equally predictive for both groups. 
 
-To tackle this, the authors suggest identifying clusters of individuals where discrimination is high to guide the collection of additional variables. This approach uses a random variable $C$ to represent clustering, with $C=c$ indicating membership in cluster $c$. The expected prediction cost $ρa​(c)$ for a cluster $c$ with protected attribute $a$ is calculated, and clusters, where the absolute difference in expected prediction costs $(|\rho_0(c) - \rho_1(c)|)$ is large, highlight groups with worse-than-average discrimination. For example, zero-one loss $( \rho^{ZO}_a(c) )$ is used, where $( \rho^{ZO}_a(c) := \mathbb{E}[1[\hat{Y} \neq Y] \mid A = a, C = c] )$.
+To tackle this, the authors suggest identifying clusters of individuals where discrimination is high to guide the collection of additional variables. This approach uses a random variable $C$ to represent clustering, with $C=c$ indicating membership in cluster $c$. The expected prediction cost $ρa​(c)$ for a cluster $c$ with protected attribute $a$ is calculated, and clusters, where the absolute difference in expected prediction costs $|\rho_0(c) - \rho_1(c)|$ is large, highlight groups with worse-than-average discrimination. Zero-one loss $\rho^{ZO}_a(c)$ is used, where $\rho^{ZO}_a(c) := \mathbb{E}[1[\hat{Y} \neq Y] \mid A = a, C = c]$ (1[\hat{Y} \neq Y]: This is the indicator function, which equals 1 if the predicted outcome Y^Y^ is not equal to the actual outcome YY, and 0 otherwise).
 
 
 
