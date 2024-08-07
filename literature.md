@@ -17,6 +17,20 @@ The variables with the largest percentage of missing data were education (87%); 
 - The PLCOm2012 had higher sensitivities in women and men, and the difference between sexes was not significant (69.8% vs. 72.6%, p=0.506).
 - Compared to the USPSTF 2013 recommendations, the PLCOm2012 model selected a larger proportion of lung cancer cases in all race-sex strata and removed the sex disparity observed for the USPSTF. The PLCOm2012 risk model could be used to identify those who will benefit from LCS.
 
+#### Implications of Excluding Sex
+
+The risk factors for lung cancer can differ between men and women. For example, men and women might have different patterns of exposure to risk factors like smoking or occupational hazards. Some models are designed specifically for one sex; thus, sex is excluded from the risk prediction equation.
+
+Certain studies might aim to understand the impact of environmental or behavioural risk factors on lung cancer without considering biological differences such as sex. In such cases, researchers might exclude sex to focus on their primary research questions.
+
+Some models are designed to provide equal treatment recommendations regardless of sex. By excluding sex, these models assume that interventions should be universally applicable, avoiding potential biases in treatment recommendations based on gender.
+
+Sex can sometimes act as a confounder in the relationship between other risk factors and lung cancer. In such cases, including sex without proper adjustment can lead to misleading associations. To avoid this, some models might exclude sex altogether.
+
+Historically, some older models might have been developed using data predominantly from one sex (e.g., male smokers), leading to models that do not include sex as a variable. Even as data availability has improved, some models continue to be used for their historical significance and established validation.
+
+While excluding sex can simplify models and focus on modifiable risks, it also has limitations. It can overlook important biological differences and potentially lead to less accurate risk predictions for individuals. Therefore, the choice to include or exclude sex should be carefully considered based on the model's purpose, the available data, and the context in which the model will be applied.
+
 ### [Why is my classifier discriminatory?](https://arxiv.org/abs/1805.12002) 
 
 #### Section 4.2 - summary
