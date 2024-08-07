@@ -10,6 +10,13 @@ Overall, this narrative underscores the interdisciplinary nature of this researc
 
 - generalise from observed measurements to underlying constructs of interest
 
+### [Race & Sex Disparities Related to Low-Dose Computed Tomography Lung Cancer Screening Eligibility Criteria: A Lung Cancer Cases Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9248363/) (2022)
+
+- They applied the USPSTF 2013 recommendations and the PLCOm2012 using a 6-year risk threshold of ≥ 1.7% (PLCOm2012 ≥1.7%/6y) to determine the sensitivity based on the respective criteria.
+The variables with the largest percentage of missing data were education (87%); the remaining variables had less than 8% missing data.
+- The PLCOm2012 had higher sensitivities in women and men, and the difference between sexes was not significant (69.8% vs. 72.6%, p=0.506).
+- Compared to the USPSTF 2013 recommendations, the PLCOm2012 model selected a larger proportion of lung cancer cases in all race-sex strata and removed the sex disparity observed for the USPSTF. The PLCOm2012 risk model could be used to identify those who will benefit from LCS.
+
 ### [Why is my classifier discriminatory?](https://arxiv.org/abs/1805.12002) 
 
 #### Section 4.2 - summary
