@@ -1,6 +1,28 @@
-The research landscape here revolves around the central theme of enhancing fairness, robustness, and efficiency in various domains, primarily within the realm of machine learning and risk prediction modelling using tabular data.
+The research landscape here revolves around the central theme of enhancing fairness, robustness, and efficiency in various domains, primarily within machine learning and risk prediction modelling using tabular data.
+
+The concept we refer to involves using data augmentation or counterfactual reasoning to enhance a model's understanding and prediction capabilities, even though the "new" data generated in this process isn't real in the traditional sense. Instead, it represents hypothetical scenarios or variations based on existing data. This approach can provide additional insights and help improve fairness in risk prediction
 
 Firstly, the quest for fairness might be addressed by formalising fairness in synthetic data generation. These frameworks aim to mitigate biases and preserve privacy while generating synthetic/counterfactual data, contributing to counterfactual fairness and information filtering fairness.
+
+### What the augmentation is learning
+
+1. Counterfactual scenarios: The augmentation learns about potential outcomes under different hypothetical conditions. For example, if an individual had a different level of education, the model can predict how that might affect their health outcomes, like lung cancer risk.
+
+2. Relationships and dependencies: It learns the relationships between various features and how changes in one feature might impact others. For instance, if there's a reciprocal relationship between smoking intensity and education, the augmentation can help the model better understand this interaction.
+
+3. Bias and fairness: By simulating scenarios where demographic variables (like education or socioeconomic status) are altered, the model can better identify and correct for biases in the training data.
+
+### Circumstances expecting added Value and fairer risk prediction
+
+1. Mitigating bias: When certain groups are underrepresented or overrepresented in the data, augmentation can help balance these disparities. For instance, generating data for underrepresented groups can provide the model with more information about these groups, leading to fairer predictions.
+
+2. Study designs: In risk prediction, such as healthcare, understanding how different interventions or circumstances (like changing a lifestyle factor) might affect an outcome is important. Augmentation can simulate these changes and provide insights into potential benefits or risks.
+
+4. Unobserved confounders: When certain variables that affect the outcome are not observed, counterfactual reasoning can help account for their impact by generating data that reflect different possible values of these unobserved variables.
+
+5. Fairness in resource allocation: In situations where resources (like medical treatments) need to be allocated fairly, understanding the potential impact of different allocation strategies can help ensure that decisions are made equitably.
+
+6. Precision medicine: In personalised medicine, for example, understanding how a particular treatment might affect an individual compared to another treatment can be vital. Augmentation can help create personalized scenarios and improve the accuracy of predictions tailored to individuals.
 
 <!--- Additionally, the advancement of robust and efficient models is evident in various approaches such as the Counterfactual Recurrent Network (CRN) and Concept Discovery through Latent Diffusion-based Counterfactual Trajectories (CDCT). CRN leverages patient observational data to estimate treatment effects over time, ensuring reliable counterfactual predictions, while CDCT employs latent diffusion models to discover decision-relevant concepts, offering a more resource-efficient solution. --->
 
