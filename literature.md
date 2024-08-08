@@ -22,7 +22,7 @@ Firstly, the quest for fairness might be addressed by formalising fairness in sy
 
 5. Fairness in resource allocation: In situations where resources (like medical treatments) need to be allocated fairly, understanding the potential impact of different allocation strategies can help ensure that decisions are made equitably.
 
-6. Precision medicine: In personalised medicine, for example, understanding how a particular treatment might affect an individual compared to another treatment can be vital. Augmentation can help create personalized scenarios and improve the accuracy of predictions tailored to individuals.
+6. Precision medicine: In personalised medicine, for example, understanding how a particular treatment might affect an individual compared to another treatment can be vital. Augmentation can help create personalised scenarios and improve the accuracy of predictions tailored to individuals.
 
 <!--- Additionally, the advancement of robust and efficient models is evident in various approaches such as the Counterfactual Recurrent Network (CRN) and Concept Discovery through Latent Diffusion-based Counterfactual Trajectories (CDCT). CRN leverages patient observational data to estimate treatment effects over time, ensuring reliable counterfactual predictions, while CDCT employs latent diffusion models to discover decision-relevant concepts, offering a more resource-efficient solution. --->
 
