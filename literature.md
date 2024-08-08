@@ -12,7 +12,7 @@ Firstly, the quest for fairness might be addressed by formalising fairness in sy
 
 3. Bias and fairness: By simulating scenarios where demographic variables (like education or socioeconomic status) are altered, the model can better identify and correct for biases in the training data.
 
-### Circumstances expecting added Value and fairer risk prediction
+### Circumstances expecting added value and fairer risk prediction
 
 1. Mitigating bias: When certain groups are underrepresented or overrepresented in the data, augmentation can help balance these disparities. For instance, generating data for underrepresented groups can provide the model with more information about these groups, leading to fairer predictions.
 
